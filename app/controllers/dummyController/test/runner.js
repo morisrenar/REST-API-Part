@@ -7,7 +7,6 @@ var mongoose  = require('mongoose');
 var should = require('should');
 var testUtils = require(base + '/Test/utils');
 
-var User = require(base + '/app/models/userModel');
 var dummyController = require(base + '/app/controllers/dummyController');
 
 describe('BOILERPLATE TESTING', () => {
