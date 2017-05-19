@@ -8,4 +8,4 @@ var contactSchema = new Schema({
     personNumber: String
 });
 
-module.exports = mongoose.Model('Contact', contactSchema);
+module.exports = mongoose.model('Contact', contactSchema);
